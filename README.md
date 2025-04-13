@@ -4,3 +4,6 @@ projek ini masih dalam tahap tampilannya saja. aplikasi dekstop yang berisi sist
 2. mencetak hasil checkout untuk pembeli
 3. analisis hasil (memungkinkan menganalisis hasil penjualan dari semua barang tersebut)
 jika memungkinkan waktu saya ingin menambahkan sistem dengan adanya fitur AInya 
+
+update 0.1 (14/04/2025)
+-penambahan preview tampilan aplikasinya dengan figma
