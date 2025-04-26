@@ -292,7 +292,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.Size = new Size(503, 200);
             tableLayoutPanel1.TabIndex = 5;
-            tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
+            tableLayoutPanel1.Paint += TableLayoutPanel1_Paint;
             // 
             // dataGridView50
             // 
@@ -800,7 +800,7 @@
             vScrollBar1.Name = "vScrollBar1";
             vScrollBar1.Size = new Size(17, 200);
             vScrollBar1.TabIndex = 6;
-            vScrollBar1.Scroll += vScrollBar1_Scroll;
+            vScrollBar1.Scroll += VScrollBar1_Scroll;
             // 
             // button1
             // 
@@ -810,6 +810,7 @@
             button1.TabIndex = 7;
             button1.Text = "Tambah";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += Button1_Click;
             // 
             // button2
             // 
@@ -898,7 +899,7 @@
             button10.TabIndex = 17;
             button10.Text = "Simpan Data";
             button10.UseVisualStyleBackColor = true;
-            button10.Click += button10_Click;
+            button10.Click += Button10_Click;
             // 
             // button11
             // 
